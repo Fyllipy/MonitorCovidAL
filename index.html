@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <title>Monitor Covid-19 Alagoas</title>
+
+    <head>
+        <link rel = "stylesheet" href = "./css/reset.css">
+        <link rel = "stylesheet" href = "./css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Monda:wght@700&display=swap" rel="stylesheet">
+    </head>
+
+    <header>
+        <h1>Desenvolvido por João Fyllipy, utilizando a API http://brasil.io. Contato: jfyllipy@gmail.com</h1>
+    </header>
+
+    <body>
+
+     
+
+      <div class="screen">
+
+        <div class="image">
+          <img src="./images/iconfinder_Medical_Icon-03_6002182.png" alt="Covid-19" class="corona">
+        </div>
+
+        <div class = "dados">
+          <p id="tituloEstado">Alagoas</p>
+        </div>
+
+
+       <!-- The Modal -->
+       <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <div class="headerText"></div>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <h3>Monitor Covid-19 Alagoas</h3>
+          </div>
+        </div>
+      
+      </div>
+              <!-- <button class="dropbtn" id="allState">Todo o Estado</button> -->
+              <div class="dropdown">
+                <button class="dropbtn">Cidades</button>
+                <div class="dropdown-content">
+                </div>
+              </div>  
+
+              <div class="recado">
+                <img class="mascara" src="./images/iconfinder_Medical_Mask-Mask-Pollution-Medical-Security_5958997.png">
+              <p class="textoMascara">#UseMascara</p>
+            </div>
+              
+
+    </div>
+
+
+    </body>
+
+    <script src="./js/ajax.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/display.js"></script>
+
+
+</html>
