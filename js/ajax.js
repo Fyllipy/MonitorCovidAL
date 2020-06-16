@@ -20,7 +20,7 @@
         
             var numDeaths = 0;
             var numInfecteds = 0;
-            for(var i = 0;i<recState.length;i++){
+            for(var i = 0;i<(recState.length-1);i++){
                 numDeaths = numDeaths + recState[i].deaths;
                 numInfecteds = numInfecteds + recState[i].confirmed;
             }
