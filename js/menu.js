@@ -4,7 +4,7 @@ function contador(dados){
     var dadosJSON = JSON.parse(dados);
     var total = dadosJSON.results;
 
-    for(var i=0; i<total.length;i++){
+    for(var i=0; i<(total.length-1);i++){
         var protoCidade=total[i];
         var cidade = protoCidade.city;
 
